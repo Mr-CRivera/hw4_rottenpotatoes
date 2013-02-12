@@ -1,3 +1,11 @@
+Fork del ejercicio de ejemplo de TDD con rspec RottenPotatoes de Cristóbal Rivera
+
+- Ejemplo de escenarios de prueba TDD con Cucumber
+- Ejemplo de ejecución de test con Capybara
+- Ejemplo de definición de test con RSpec antes del desarroyo
+
+
+
 == Welcome to Rails
 
 Rails is a web-application framework that includes everything needed to create
