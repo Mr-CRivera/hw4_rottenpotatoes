@@ -12,7 +12,19 @@ Rottenpotatoes::Application.routes.draw do
 
   # Sample resource route (maps HTTP verbs to controller actions automatically):
   #   resources :products
-  resources :movies
+
+
+  #rutas genericas de movies
+  #que incluye la ruta para buscar peliculas con el mismo director
+  #match 'movies/:id/samedir' => 'movies#samedir', #:as => :samedir #samedir_url(movie)
+  resources :movies do
+    member do
+      get 'samedir'
+    end
+  end
+
+
+
 
   # Sample resource route with options:
   #   resources :products do
